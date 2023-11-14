@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<title>Menù Lateral con Css</title>
+	<link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+	<header class="header">
+		<div class="container">
+		<div class="btn-menu">
+			<label for="btn-menu">☰</label>
+		</div>
+	</header>
+	<div class="capa"></div>
+<!--	--------------->
+<input type="checkbox" id="btn-menu">
+<div class="container-menu">
+	<div class="cont-menu">
+		<nav>
+			<a href="https://Paolaabigailramosgarcia@gmail.com">Correo Electronico</a>
+			<a href="https://www.facebook.com/profile.php?id=100090557115644&mibextid=ZbWKwL">Facebook</a>
+			<a href="https://instagram.com/polis.29?igshid=MzRlODBiNWFlZA==">Instagram</a>
+			<a href="https://wa.me/qr/VZS7VCF6LWOGJ1">WhatsApp</a>
+			<a href="">Creadores</a>
+		</nav>
+		<label for="btn-menu">✖️</label>
+	</div>
+</div>
+<body>
+	<header class="header">
+		<div class="container">
+		<div class="btn-menu">
+			<label for="btn-menu">☰</label>
+		</div>
+	</header>
+	<div class="capa"></div>
+<!--	--------------->
+<input type="checkbox" id="btn-menu">
+<div class="container-menu">
+	<div class="cont-menu">
+		<nav>
+			<a href="#" id="correoLink">Correo Electronico</a>
+			<a href="#" id="facebookLink">Facebook</a>
+			<a href="#" id="instaLink">Instagram</a>
+			<a href="#" id="wspLink">WhatsApp</a>
+			<a href="#" id="wspLink">Creadores</a>
+		</nav>
+		<label for="btn-menu">✖️</label>
+	</div>
+</div>
+</body>
+<script>
+  
+   const correoLink = document.getElementById("correoLink");
+    correoLink.addEventListener("click", function (event) {
+        event.preventDefault(); 
+        window.open("https://Paolaabigailramosgarcia@gmail.com", "_blank");
+    });
+
+	const facebookLink = document.getElementById("facebookLink");
+    facebookLink.addEventListener("click", function (event) {
+        event.preventDefault();
+        window.open("https://www.facebook.com/profile.php?id=100090557115644&mibextid=ZbWKwL", "_blank");
+    });
+
+	const instaLink = document.getElementById("instaLink");
+    instaLink.addEventListener("click", function (event) {
+        event.preventDefault();
+        window.open("https://instagram.com/polis.29?igshid=MzRlODBiNWFlZA==", "_blank");
+    });
+
+	const wspLink = document.getElementById("wspLink");
+    wspLink.addEventListener("click", function (event) {
+        event.preventDefault();
+        window.open("https://wa.me/qr/VZS7VCF6LWOGJ1", "_blank");
+    });
+</script>
+</html>
+
+</body>
+</html>     
